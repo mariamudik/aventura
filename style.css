@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(97, 151, 177);
+    color: black;
+    font-family: "Viaoda Libre", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+button {
+    background-color: aqua;
+    color: black;
+    font-family: "Viaoda Libre", serif;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display:block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+    max-width: 90%;
+}
